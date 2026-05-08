@@ -36,6 +36,50 @@ const defaultMovies = [
     language: "English",
     showTimes: ["12:00 PM", "4:00 PM", "8:30 PM"],
     posterUrl: "https://placehold.co/600x400?text=Dune+2"
+  },
+  {
+    title: "Gladiator II",
+    description: "Lucius takes up the sword to fight tyranny in Rome's Colosseum.",
+    rating: 8.2,
+    durationMinutes: 148,
+    language: "English",
+    showTimes: ["11:00 AM", "3:00 PM", "7:00 PM"],
+    posterUrl: "https://placehold.co/600x400?text=Gladiator+II",
+    isUpcoming: true,
+    releaseDate: "Nov 2025"
+  },
+  {
+    title: "Deadpool & Wolverine",
+    description: "Wade Wilson teams up with Wolverine for a multiverse-saving mission.",
+    rating: 8.4,
+    durationMinutes: 127,
+    language: "English",
+    showTimes: ["10:30 AM", "2:30 PM", "6:30 PM"],
+    posterUrl: "https://placehold.co/600x400?text=Deadpool+%26+Wolverine",
+    isUpcoming: true,
+    releaseDate: "Dec 2025"
+  },
+  {
+    title: "Furiosa",
+    description: "The origin story of Furiosa's journey across the wasteland.",
+    rating: 8.0,
+    durationMinutes: 149,
+    language: "English",
+    showTimes: ["12:00 PM", "4:30 PM", "9:00 PM"],
+    posterUrl: "https://placehold.co/600x400?text=Furiosa",
+    isUpcoming: true,
+    releaseDate: "Jan 2026"
+  },
+  {
+    title: "Kingdom of the Planet of the Apes",
+    description: "A new ape leader rises as civilizations clash in a post-human world.",
+    rating: 7.9,
+    durationMinutes: 145,
+    language: "English",
+    showTimes: ["1:00 PM", "5:00 PM", "9:30 PM"],
+    posterUrl: "https://placehold.co/600x400?text=Planet+of+the+Apes",
+    isUpcoming: true,
+    releaseDate: "Feb 2026"
   }
 ];
 

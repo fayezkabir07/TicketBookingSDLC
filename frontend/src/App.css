@@ -321,6 +321,53 @@
   color: #334155;
 }
 
+.upcoming-section {
+  background: #f1f5f9;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-top: 1.5rem;
+  border: 1px solid #e2e8f0;
+}
+
+.movie-poster-wrapper {
+  position: relative;
+}
+
+.upcoming-badge {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: #7c3aed;
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.coming-soon-btn {
+  border: 0;
+  border-radius: 8px;
+  padding: 0.5rem 0.8rem;
+  font-weight: 600;
+  cursor: not-allowed;
+  background: #cbd5e1;
+  color: #64748b;
+  opacity: 0.75;
+}
+
+.release-date-tag {
+  display: inline-block;
+  background: #ede9fe;
+  color: #5b21b6;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 0.18rem 0.5rem;
+  border-radius: 6px;
+}
+
 @media (max-width: 900px) {
   .layout-grid {
     grid-template-columns: 1fr;

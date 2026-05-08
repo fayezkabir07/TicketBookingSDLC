@@ -42,6 +42,14 @@ const movieSchema = new mongoose.Schema(
     posterUrl: {
       type: String,
       default: "https://placehold.co/600x400?text=Movie+Poster"
+    },
+    isUpcoming: {
+      type: Boolean,
+      default: false
+    },
+    releaseDate: {
+      type: String,
+      trim: true
     }
   },
   { timestamps: true }
